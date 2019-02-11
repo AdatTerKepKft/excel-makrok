@@ -7,7 +7,7 @@ Ebben a repositoryban gyűjtjük össze azokat az Excel makrókat, amelyeket a b
 
 A makró egy tetszőleges nevű munkalapot szúr be a meglévőek elé. Erre a munkalapra egy tartalomjegyzéket készít a többi munkalapot listázva, hivatkozást is elhelyezve az egyes munkalapokra.
 
-**CustomFunctionExample_GiveMarks.vb**
+**CustomFunctionExample_GiveMarks**
 
 A makró egy egyéni függvény használatát teszi lehetővé, amely segít az érdemjegyek kiosztásában az elért pontszámok alapján.
 
