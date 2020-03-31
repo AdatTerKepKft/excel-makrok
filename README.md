@@ -7,6 +7,8 @@ Ebben a repositoryban gyűjtjük össze azokat az Excel makrókat, amelyeket a b
 
 A makró két munkalap tartalmát hasonlítja össze strukturális (oszlopok és sorok száma, sor- és oszlopazonosítók neve) és tartalmi (értékek egyezése) szempontokból. A strukturális eltéréseket felugró üzenetben jelzi, a tartalmi különbségekről listát készít egy új munkalapon.
 
+Blog: [Excel makró - Két adattábla tartalmának összevetése](https://adatterkep.com/excel-makro-ket-adattable-tartalmanak-osszevetese)
+
 **[CreateAndLinkTableOfContent.vb](CreateAndLinkTableOfContent.vb)**
 
 A makró egy tetszőleges nevű munkalapot szúr be a meglévőek elé. Erre a munkalapra egy tartalomjegyzéket készít a többi munkalapot listázva, hivatkozást is elhelyezve az egyes munkalapokra.
