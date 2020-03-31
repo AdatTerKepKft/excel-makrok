@@ -42,7 +42,7 @@ Next r
 'Tartalmi különbségek
 
 differences = 0
-Worksheets.Add(After:= Worksheets(Worksheets.Count)).Name = "DIFF"
+Worksheets.Add().Name = "DIFF"
 Worksheets("DIFF").Cells(1,1).Value = "ROW"
 Worksheets("DIFF").Cells(1,2).Value = "COL"
 Worksheets("DIFF").Cells(1,3).Value = "OLD_VALUE"
@@ -53,6 +53,9 @@ For r = 2 To old_rows_count
         If Worksheets("OLD").Cells(r,c).Value <> Worksheets("NEW").Cells(r,c).Value Then
             Worksheets("DIFF").Cells(differences + 2,1).Value = r
             Worksheets("DIFF").Cells(differences + 2,2).Value = c
+            'Ha a sor- és oszlopazonosítót szeretnéd a sor és oszlop száma helyett kiíratni, a fenti két sort cseréld ki a lenti két sorra
+            'Worksheets("DIFF").Cells(differences + 2,1).Value = Worksheets("OLD").Cells(r, 1).Value
+            'Worksheets("DIFF").Cells(differences + 2,2).Value = Worksheets("OLD").Cells(1, c).Value
             Worksheets("DIFF").Cells(differences + 2,3).Value = Worksheets("OLD").Cells(r,c).Value
             Worksheets("DIFF").Cells(differences + 2,4).Value = Worksheets("NEW").Cells(r,c).Value
             differences = differences + 1
@@ -66,7 +69,7 @@ If differences = 0 Then
     Application.DisplayAlerts = True
     MsgBox ("A két adattábla teljesen megegyezik!")
 Else
-    MsgBox ("A két adattábla strukturálisan megegyezik, tartalmi különbségeik a DIFF munkalapon láthatók!")
+    MsgBox ("A két adattábla strukturálisan megegyezik, tartalmi különbségeik (" & differences & " darab) a DIFF munkalapon láthatók!")
 End If
 
 End Sub
