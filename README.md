@@ -3,6 +3,10 @@ Hasznos Excel makrók gyűjteménye
 
 Ebben a repositoryban gyűjtjük össze azokat az Excel makrókat, amelyeket a blogon bemutattunk, így egy helyen megtalálható az összes hasznos makró.
 
+**[CompareTwoTables.vb](CompareTwoTables.vb)**
+
+A makró két munkalap tartalmát hasonlítja össze strukturális (oszlopok és sorok száma, sor- és oszlopazonosítók neve) és tartalmi (értékek egyezése) szempontokból. A strukturális eltéréseket felugró üzenetben jelzi, a tartalmi különbségekről listát készít egy új munkalapon.
+
 **[CreateAndLinkTableOfContent.vb](CreateAndLinkTableOfContent.vb)**
 
 A makró egy tetszőleges nevű munkalapot szúr be a meglévőek elé. Erre a munkalapra egy tartalomjegyzéket készít a többi munkalapot listázva, hivatkozást is elhelyezve az egyes munkalapokra.
