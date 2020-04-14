@@ -9,6 +9,12 @@ A makró két munkalap tartalmát hasonlítja össze strukturális (oszlopok és
 
 Blog: [Excel makró - Két adattábla tartalmának összevetése](https://adatterkep.com/excel-makro-ket-adattable-tartalmanak-osszevetese)
 
+**[CountCharacter.vb](CountCharacter.vb)**
+
+A makró egy függvényt hoz létre, amely megszámolja, egy szövegben hányszor fordul elő egy bizonyos karakter(sorozat). A harmadik paramétertől függően tekintettel lehet a kis- és nagybetű eltéréseire vagy nem.
+
+Blog: [Excel makró - Karaktersorozat előfordulásainak száma egy szövegben](https://adatterkep.com/excel-makro-karaktersorozat-elofordulasainak-szama-egy-szovegben)
+
 **[CreateAndLinkTableOfContent.vb](CreateAndLinkTableOfContent.vb)**
 
 A makró egy tetszőleges nevű munkalapot szúr be a meglévőek elé. Erre a munkalapra egy tartalomjegyzéket készít a többi munkalapot listázva, hivatkozást is elhelyezve az egyes munkalapokra.
